@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Crypto currencies GDAX",
+  "description": "This extension allows the user to change the background color of the current page.",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
