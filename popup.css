@@ -1,4 +1,48 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 #container {
   width: 300px;
   height:300px;
+}
+
+ul {
+  margin-right: -8px;
+  padding: 14px 0 14px 14px;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li span {
+  display:inline-block;
+}
+
+.product-title{
+  margin-bottom: 4px;
+  font-weight: bold;
+  color: #15232c;
+}
+
+.product-list-items {
+  padding: 10px;
+}
+
+.product-list-item{
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.item-title{
+  font-weight: bold;
+  text-align: left;
+}
+
+.item-info {
+  float: right;
+  display: inline-block;
 }
