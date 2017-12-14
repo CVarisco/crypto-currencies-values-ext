@@ -13,7 +13,7 @@ body {
 
 #container {
   width: 300px;
-  height:300px;
+  min-height: 300px;
 }
 
 ul {
@@ -31,7 +31,6 @@ ul li span {
 
 .product-title{
   margin-bottom: 4px;
-  font-weight: bold;
   color: #15232c;
 }
 
@@ -47,7 +46,6 @@ ul li span {
 }
 
 .item-title{
-  font-weight: bold;
   text-align: left;
 }
 

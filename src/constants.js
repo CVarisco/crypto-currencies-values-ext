@@ -5,11 +5,11 @@ const PRODUCTS = {
   },
   ETHEREUM: {
     name: 'ETHEREUM',
-    currencyPairs: ['ETH-USD', 'ETH-BTC', 'ETH-EUR']
+    currencyPairs: ['ETH-USD', 'ETH-EUR']
   },
   LITECOIN: {
     name: 'LITECOIN',
-    currencyPairs: ['LTC-USD', 'LTC-BTC', 'LTC-EUR']
+    currencyPairs: ['LTC-USD', 'LTC-EUR']
   }
 }
 

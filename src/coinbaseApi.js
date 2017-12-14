@@ -1,6 +1,6 @@
-import 'whatwg-fetch'
+import 'whatwg-fetch';
 
-const API_BASE_URL = "http://api.coinbase.com/v2"
+const API_BASE_URL = "http://api.coinbase.com/v2";
 
 const coinbaseClient = {
   /**
