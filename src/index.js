@@ -1,9 +1,9 @@
 import './popup.css';
 import coinbaseApi from './coinbaseApi';
+import { generateProduct } from './template';
+import { PRODUCTS } from './constants';
 
-const one = coinbaseApi.getSpotPrice('LTC-EUR');
-const two = coinbaseApi.getSpotPrice('BTC-EUR');
-
-
-Promise.all([one,
-  two]).then((data) => { console.log(data) })
+coinbaseApi.getSpotPrice('LTC-EUR').then(({ data }) => {
+  const productTemplate = generateProduct(data)
+  document.getElementById('products').innerHTML = productTemplate;
+});
