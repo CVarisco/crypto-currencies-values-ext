@@ -1,14 +1,17 @@
 const PRODUCTS = {
   BITCOIN: {
-    name: 'BITCOIN',
+    name: 'Bitcoin',
+    id: 'bitcoin',
     currencyPairs: ['BTC-USD', 'BTC-EUR', 'BTC-GBP']
   },
   ETHEREUM: {
-    name: 'ETHEREUM',
+    name: 'Ethereum',
+    id: 'ethereum',
     currencyPairs: ['ETH-USD', 'ETH-EUR']
   },
   LITECOIN: {
-    name: 'LITECOIN',
+    name: 'Litecoin',
+    id: 'litecoin',
     currencyPairs: ['LTC-USD', 'LTC-EUR']
   }
 }

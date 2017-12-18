@@ -1,4 +1,3 @@
-import './popup.css';
 import coinbaseApi from './coinbaseApi';
 import { generateProduct } from './template';
 import { PRODUCTS } from './constants';

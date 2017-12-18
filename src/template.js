@@ -1,7 +1,12 @@
+import { getCurrencySymbol } from './utils';
+import images from './assets/images';
+
 const generateProduct = (product, res) => {
+  const logoSrc= images[product.id];
+
   return (`
-<li class="product">
-  <h2 class="product-title">${product.name}</h2>
+<li class="product ${product.name.toLowerCase()}">
+  <h2 class="product-title"><img class="logo" src="${logoSrc}" />${product.name}</h2>
   <ul class="product-list-items">
     ${generateProductListItems(res)}
   </ul>
@@ -22,7 +27,7 @@ const generateProductListItems = (res) => {
     <li class="product-list-item">
       <span class="item-title">${data.base}/${data.currency}</span>
       <div class="item-info">
-        <span class="item-value">${data.amount} ${data.currency}</span>
+        <span class="item-value">${data.amount}${getCurrencySymbol(data.currency)}</span>
       </div>
     </li>
     `)
