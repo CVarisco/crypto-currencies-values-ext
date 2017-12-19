@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+a {
+  outline:none;
+}
+
 #container {
   width: 300px;
   min-height: 300px;
