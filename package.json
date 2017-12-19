@@ -1,21 +1,44 @@
 {
   "name": "crypto-chrome-ext",
   "version": "1.0.0",
-  "description": "Show crypo currencies values from gdax api",
+  "description": "Show crypo currencies values from coinbase api",
   "main": "index.js",
+  "author": "Christian Varisco",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html",
-    "build": "./scripts/build.sh"
+    "lint": "eslint src test",
+    "build": "./scripts/build.sh",
+    "start": "webpack-dev-server --config webpack.config.js --watch",
+    "test": "ava"
   },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-preset-env": "1.1.8",
-    "babel-preset-stage-2": "6.18.0",
-    "parcel-bundler": "1.2.0"
+  "ava": {
+    "files": [
+      "src/**/test.spec.js"
+    ],
+    "concurrency": 5,
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ],
+    "babel": "inherit"
   },
   "dependencies": {
     "whatwg-fetch": "2.0.3"
+  },
+  "devDependencies": {
+    "ava": "0.22.0",
+    "babel-cli": "6.18.0",
+    "babel-eslint": "7.1.1",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "4.0.1",
+    "css-loader": "0.28.7",
+    "eslint": "3.14.0",
+    "eslint-config-airbnb-base": "11.0.1",
+    "eslint-plugin-import": "2.2.0",
+    "style-loader": "0.19.0",
+    "webpack": "3.3.0",
+    "webpack-dev-server": "2.9.7"
   }
 }

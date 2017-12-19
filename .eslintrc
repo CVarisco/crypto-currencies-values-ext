@@ -1,0 +1,22 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb-base"],
+  "globals": {
+    "jest": false,
+    "expect": false,
+    "describe": false,
+    "xdescribe": false,
+    "it": false,
+    "xit": false,
+    "beforeAll": false,
+    "beforeEach": false,
+    "afterAll": false,
+    "afterEach": false,
+    "fetch": false,
+    "document": false
+  },
+  "rules": {
+    "semi": [2, "never"],
+    "comma-dangle": [2, "always-multiline"]
+  }
+}
