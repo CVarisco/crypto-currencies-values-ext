@@ -8,8 +8,6 @@ function addProduct(product, res) {
 }
 
 function main() {
-  console.log(PRODUCTS)
-
   const products = Object.keys(PRODUCTS).map(productName => ({
     ...PRODUCTS[productName],
     apiCalls: PRODUCTS[productName].currencyPairs.map(currencyPair =>

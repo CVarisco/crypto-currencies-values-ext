@@ -12,14 +12,9 @@
     "test": "ava"
   },
   "ava": {
-    "files": [
-      "src/**/test.spec.js"
-    ],
+    "files": ["src/**/test.spec.js"],
     "concurrency": 5,
-    "require": [
-      "babel-register",
-      "babel-polyfill"
-    ],
+    "require": ["babel-register", "babel-polyfill"],
     "babel": "inherit"
   },
   "dependencies": {
