@@ -12,9 +12,14 @@
     "test": "ava"
   },
   "ava": {
-    "files": ["src/**/test.spec.js"],
+    "files": [
+      "src/**/test.spec.js"
+    ],
     "concurrency": 5,
-    "require": ["babel-register", "babel-polyfill"],
+    "require": [
+      "babel-register",
+      "babel-polyfill"
+    ],
     "babel": "inherit"
   },
   "dependencies": {
@@ -25,7 +30,7 @@
     "babel-cli": "6.18.0",
     "babel-eslint": "7.1.1",
     "babel-loader": "^7.1.2",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "6.26.0",
     "babel-preset-env": "^1.6.1",
     "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.28.7",

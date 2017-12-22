@@ -13,7 +13,8 @@
     "afterAll": false,
     "afterEach": false,
     "fetch": false,
-    "document": false
+    "document": false,
+    "window": false
   },
   "rules": {
     "semi": [2, "never"],

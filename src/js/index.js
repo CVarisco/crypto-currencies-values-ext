@@ -1,6 +1,6 @@
-import coinbaseApi from './coinbaseApi'
-import generateProduct from './template'
-import PRODUCTS from './constants'
+import coinbaseApi from './services/coinbaseApi'
+import generateProduct from './templates/products'
+import PRODUCTS from './constants/products'
 
 function addProduct(product, res) {
   const productTemplate = generateProduct(product, res)
@@ -22,4 +22,4 @@ function main() {
   })
 }
 
-main()
+window.onload = main

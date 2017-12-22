@@ -1,4 +1,4 @@
-import getCurrencySymbol from './utils'
+import getCurrencySymbol from '../utils'
 
 const generateProductListItem = ({ base, currency, amount }) => `
 <li class="product-list-item">
