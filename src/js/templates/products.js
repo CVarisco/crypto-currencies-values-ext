@@ -28,9 +28,9 @@ const generateProductListItems = (res) => {
 
 const generateProduct = (product, res) => `
 <li class="product ${product.id}">
-  <h2 class="product-title"><img class="logo" src="./assets/images/${product.id}.svg" />${
-  product.name
-}</h2>
+  <h2 class="product-title"><img class="logo" src="./assets/images/${product.id}.svg" />
+    ${product.name}
+  </h2>
   <ul class="product-list-items">
     ${generateProductListItems(res)}
   </ul>
