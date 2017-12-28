@@ -9,10 +9,9 @@ a {
 }
 
 #container {
-  width: 300px;
+  width: 525px;
   min-height: 300px;
   background: #f9f9f9;
-  padding: 10px;
 }
 
 .header {
@@ -30,12 +29,12 @@ ul {
   margin-right: -8px;
   padding: 14px 0 14px 14px;
   margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 ul li span {
   display: inline-block;
+  font-size: 14px;
 }
 
 .product {
@@ -44,6 +43,10 @@ ul li span {
   border-radius: 3px 5px 5px 3px;
   box-shadow: 10px 8px 25px rgba(0, 0, 0, 0.4);
   background: white;
+  min-width: 200px;
+  min-height: 150px;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .bitcoin {
