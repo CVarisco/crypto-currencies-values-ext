@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
-  "name": "Crypto currencies GDAX",
+  "name": "Crypto currencies values",
   "description":
-    "This extension allows the user to change the background color of the current page.",
-  "version": "1.0",
+    "Extension to show crypo currencies values",
+  "version": "0.0.1",
   "browser_action": {
     "default_popup": "index.html",
-    "default_title": "Click here!"
+    "default_title": "Crypto currencies values"
   }
 }
