@@ -24,8 +24,8 @@ Google Chrome extension to show real time values of crypto currencies available 
 
 ## Contributing
 
-Check the [issue list](https://github.com/CVarisco/crypto-currencies-values-ext/issues) to contribute on some activities or to advice new features!
-The library is open to everybody, contribute improve your skills 😊  
+Check the [issue list](https://github.com/CVarisco/crypto-currencies-values-ext/issues) to contribute on some activities or to advice new features!  
+The project is open to everybody, contribute improve your skills 😊  
 
 `crypto-currencies-values-ext` is maintained under [the Semantic Versioning guidelines](http://semver.org/).
 
