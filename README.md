@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/CVarisco/crypto-currencies-values-ext/tree/master/src/assets/images/LOGO.png" width="500" alt="crypto-currencies-values"/>
+  <img src="https://raw.githubusercontent.com/CVarisco/crypto-currencies-values-ext/master/src/assets/images/LOGO.png" width="500" alt="crypto-currencies-values"/>
 </p>
 
 <p align="center">
