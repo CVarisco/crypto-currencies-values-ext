@@ -13,6 +13,10 @@
 
 Google Chrome extension to show real time values of crypto currencies available on [Coinbase](https://www.coinbase.com/).
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CVarisco/crypto-currencies-values-ext/master/src/assets/images/screenshot.png" alt="screenshot" width="1024" />
+</p>
+
 ## How to install
 
 - Go [here](https://chrome.google.com/webstore/detail/crypto-currencies-values/mdhjlfjkejlopnnhpddgknbapmojkgip)
