@@ -48,6 +48,8 @@ To install the extension on your local machine:
 
 ### [Contributors](https://github.com/CVarisco/crypto-currencies-values-ext/graphs/contributors)
 
+Logo by [Alessandro Mazzola](https://www.instagram.com/itsalessandromazzola/)
+
 ## License
 
 MIT © [Christian Varisco](https://github.com/CVarisco)
