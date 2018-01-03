@@ -4,6 +4,11 @@
   "description":
     "Extension to show crypo currencies values",
   "version": "0.0.1",
+  "icons": { 
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+   "128": "assets/icons/icon128.png" 
+  },
   "browser_action": {
     "default_popup": "index.html",
     "default_title": "Crypto currencies values"

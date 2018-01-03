@@ -8,6 +8,14 @@ a {
   outline: none;
 }
 
+.main-logo {
+  position: relative;
+  width: 25px;
+  top: 7px;
+  margin-right: 3px;
+  display: inline-block;
+}
+
 #container {
   width: 525px;
   min-height: 300px;
@@ -18,11 +26,12 @@ a {
   text-align: center;
   border-bottom: 5px solid #0667d0;
   background: white;
-  padding: 15px;
+  padding: 10px 15px 15px 15px;
 }
 
 .header h3 {
   margin: 0;
+  display: inline-block  
 }
 
 ul {
