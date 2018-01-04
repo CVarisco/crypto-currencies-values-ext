@@ -3,7 +3,7 @@
   "name": "Crypto currencies values",
   "description":
     "Extension to show crypo currencies values",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "icons": { 
     "16": "assets/icons/icon16.png",
     "48": "assets/icons/icon48.png",

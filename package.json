@@ -1,6 +1,6 @@
 {
   "name": "crypto-currencies-values-ext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Google Chrome extension to show crypo currencies values",
   "main": "index.js",
   "author": "Christian Varisco",
