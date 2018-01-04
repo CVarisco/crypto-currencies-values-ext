@@ -46,6 +46,18 @@ To install the extension on your local machine:
 
 4) Click Load Unpacked Extension and select the directory `dist`.
 
+### [Roadmap]
+
+In the next release it would be amazing to have this features.
+
+- Integration of new exchange APIs
+- Capability to filter by available CC
+- Capability to filter by different exchange
+- Capability to save your presets and order
+- Capability to sort/order CC
+
+The project is open to everyone that want contribute 🚀
+
 ### [Contributors](https://github.com/CVarisco/crypto-currencies-values-ext/graphs/contributors)
 
 Logo by [Alessandro Mazzola](https://www.instagram.com/itsalessandromazzola/)
