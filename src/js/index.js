@@ -2,12 +2,21 @@ import coinbaseApi from './services/coinbaseApi'
 import generateProduct from './templates/products'
 import PRODUCTS from './constants/products'
 
+function removeLoader() {
+  const loaderElement = document.getElementById('loader');
+
+  if (!loaderElement.classList.contains('hide')) {
+    loaderElement.classList.add('hide')
+  }
+}
+
 /**
  * Insert on the HTML the generate component template
  * @param {Object} product informations about the product
  * @param {Array} res array of prices from the API 
  */
-const addProductToHTML = (product, res) => {
+function addProductToHTML (product, res) {
+  removeLoader();
   const productTemplate = generateProduct(product, res)
   document.getElementById('products').insertAdjacentHTML('beforeend', productTemplate)
 }

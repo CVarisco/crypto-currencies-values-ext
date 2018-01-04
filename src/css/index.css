@@ -35,6 +35,29 @@ a {
   display: inline-block  
 }
 
+#loader {
+  position: absolute;
+  margin: auto;
+  top: 0; 
+  left: 0; 
+  bottom: 0; 
+  right: 0;
+  border-top: 4px solid #6D6D6D;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 700ms linear infinite;
+}
+
+#loader.hide{
+  display: none;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 ul {
   margin-right: -8px;
   padding: 14px 0 14px 14px;
@@ -57,6 +80,18 @@ ul li span {
   min-height: 150px;
   vertical-align: top;
   display: inline-block;
+  -webkit-animation: fadein 350ms; /* Safari, Chrome and Opera > 1350m.1 */
+  animation: fadein 350ms;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .bitcoin {
@@ -119,7 +154,9 @@ ul li span {
 }
 
 .footer {
-  text-align: right;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
 }
 
 .footer a {
