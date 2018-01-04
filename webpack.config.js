@@ -3,9 +3,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   devtool: 'inline-sourcemap',
-  entry: {
-    bundle: './src/js/index.js',
-  },
+  entry: [ 'babel-polyfill', './src/js/index.js'],
   module: {
     rules: [
       {
@@ -23,7 +21,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js',
+    filename: 'bundle.js',
   },
   plugins: [
     new CopyWebpackPlugin([
