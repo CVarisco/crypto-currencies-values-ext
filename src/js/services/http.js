@@ -7,9 +7,7 @@ const http = {
    * @return {Object} Promise
    */
   get(url) {
-    return new Promise((resolve) => {
-      fetch(url).then(res => resolve(res.json()))
-    })
+    return  fetch(url).then(res => res.json())
   },
 }
 
