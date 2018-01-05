@@ -19,16 +19,15 @@ Google Chrome extension to show real time values of crypto currencies available 
 
 ## How to install
 
-- Go [here](https://chrome.google.com/webstore/detail/crypto-currencies-values/mdhjlfjkejlopnnhpddgknbapmojkgip)
-- Click on "add to chrome" button
+* Go [here](https://chrome.google.com/webstore/detail/crypto-currencies-values/mdhjlfjkejlopnnhpddgknbapmojkgip)
+* Click on "add to chrome" button
 
 ## Contributing
 
 Check the [issue list](https://github.com/CVarisco/crypto-currencies-values-ext/issues) to contribute on some activities or to advice new features!  
-The project is open to everybody, contribute improve your skills 😊  
+The project is open to everybody, contribute improve your skills 😊
 
 `crypto-currencies-values-ext` is maintained under [the Semantic Versioning guidelines](http://semver.org/).
-
 
 ### How to contribute
 
@@ -38,23 +37,23 @@ and
 
 To install the extension on your local machine:
 
-1) Build the source code launching `npm run build`
+1. Build the source code launching `npm run build`
 
-2) Navigate to chrome://extensions in your browser. You can also access this page by clicking on the Chrome menu on the top right side of the Omnibox, hovering over More Tools and selecting Extensions.
+2. Navigate to chrome://extensions in your browser. You can also access this page by clicking on the Chrome menu on the top right side of the Omnibox, hovering over More Tools and selecting Extensions.
 
-3) Check the box next to Developer Mode.
+3. Check the box next to Developer Mode.
 
-4) Click Load Unpacked Extension and select the directory `dist`.
+4. Click Load Unpacked Extension and select the directory `dist`.
 
-### [Roadmap]
+### Roadmap
 
 In the next release it would be amazing to have this features.
 
-- Integration of new exchange APIs
-- Capability to filter by available CC
-- Capability to filter by different exchange
-- Capability to save your presets and order
-- Capability to sort/order CC
+* Integration of new exchange APIs
+* Capability to filter by available CC
+* Capability to filter by different exchange
+* Capability to save your presets and order
+* Capability to sort/order CC
 
 The project is open to everyone that want contribute 🚀
 
