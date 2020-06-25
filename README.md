@@ -1,3 +1,5 @@
+# NO MORE MAINTAINED
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/CVarisco/crypto-currencies-values-ext/master/src/assets/images/LOGO.png" width="250" alt="crypto-currencies-values"/>
 </p>
